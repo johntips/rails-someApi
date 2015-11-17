@@ -6,23 +6,42 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+ruby-2.2.0
+rails-4.2.0
 
 * System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+aws amazonlinux
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* /escape/index
+``{
+    escape: [
+    {
+    id: 72,
+    user_id: 7,
+    time: "2015-11-13T19:00:00.000Z",
+    caption: "ドレスコードは白！ このあとのディナーである人にサプライズを、、、♡",
+    images: [
+        { escape_id: 72,
+          image_id: 430,
+          url: "https://s3-ap-northeast-1.amazonaws.com/stg.image.tabi-muse/img/escape-20151113-232531-7.jpg",
+          caption: ""
+        }
+    ]
+    },
+    {
+    id: 71,
+    user_id: 7,
+    time: "2015-11-13T15:00:00.000Z",
+    caption: "夕方はプールの中にあるOcean Pool Barへ。 プールに入ったままドリンクを飲むことができる、とってもクールなバーです。",
+    images: [
+        { escape_id: 71,
+          image_id: 420,
+          url: "https://s3-ap-northeast-1.amazonaws.com/stg.image.tabi-muse/img/escape-20151113-212510-7.jpg",
+          caption: ""
+        },.....
+    ]
+    }
+  ]
+}
+``
